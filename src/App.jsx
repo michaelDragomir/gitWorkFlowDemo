@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 
 function App() {
-	const [count, setCount] = useState(100);
+	const [count, setCount] = useState(0);
 
 	const countHandler = () => {
 		setCount((count) => count + 5);
@@ -10,9 +10,9 @@ function App() {
 
 	return (
 		<>
-			<h1>My count feature</h1>
+			<h1>My cool counter update</h1>
 			<div className='card'>
-				<button onClick={countHandler}>count is {count}</button>
+				<button onClick={countHandler}>count IS NOW! {count}</button>
 			</div>
 		</>
 	);
