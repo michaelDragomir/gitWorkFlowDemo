@@ -12,7 +12,7 @@ function App() {
 		<>
 			<h1>hello tech 37....</h1>
 			<div className='card'>
-				<button onClick={countHandler}>count IS NOW! {count}</button>
+				<button onClick={countHandler}>no more code... {count}</button>
 			</div>
 		</>
 	);
