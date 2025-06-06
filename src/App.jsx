@@ -1,8 +1,8 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './App.css';
 
 function App() {
-	const [count, setCount] = useState(10);
+	// const [count, setCount] = useState(10);
 
 	// const countHandler = () => {
 	// 	setCount((count) => count + 5);
@@ -10,9 +10,9 @@ function App() {
 
 	return (
 		<>
-			<h1>hello tech 37....</h1>
+			<h1>hello tech res 38! you guys are awesome</h1>
 			<div className='card'>
-				<button onClick={countHandler}>no more code... {count}</button>
+				<button>no more code...</button>
 			</div>
 		</>
 	);
