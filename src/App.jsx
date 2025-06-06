@@ -15,6 +15,8 @@ function App() {
 				<button onClick={countHandler}>count IS NOW! {count}</button>
 				<button className="flashy-button" onClick={countHandler}>FLASHY COUNT! {count}</button>
 			</div>
+			syntaxerror
+			{{ ... }}
 		</>
 	);
 }
