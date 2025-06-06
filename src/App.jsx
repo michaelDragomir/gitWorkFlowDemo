@@ -13,6 +13,7 @@ function App() {
 			<h1>My cool counter update</h1>
 			<div className='card'>
 				<button onClick={countHandler}>count IS NOW! {count}</button>
+				<button className="flashy-button" onClick={countHandler}>FLASHY COUNT! {count}</button>
 			</div>
 		</>
 	);
